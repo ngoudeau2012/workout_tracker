@@ -2,9 +2,7 @@
 
 Workout Tracker is a full-stack application that allows users to track and view all of their workouts. The user may add to or view their latest workout, or start a new workout where they can enter information about the exercises they completed. Through the dashboard, the user can view graphical representations of their workouts on a day to day basis. 
 
-Building this application thought me how to build and integrate a back-end server using express. I learned about connecting the front-end and the backend through ajax calls paired with proper backend api routes. I learned how to properly work with promises and asynchronous calls. Lastly, it also taught me the importance of project organization and prework. Having everything laid out before I started building routes allowed me to keep my work flow clear and concise. 
-
-Some of the problems that I encountered and overcame while building this application involved implementing the full C.R.U.D circle for a static JSON db. Initially, I was able to get the proper data/actions that I wanted from the front end, but struggled to read and write to the static JSON file. 
+Building this application thought the pros and cons of using a noNQL database. Although they have a tone of flexibility, noSQL databases are more difficult to debug due to the fact that they rarely throw errors if something is the request to the db is off. I spent a decent amount of time debugging my put request to add an exercise to the workout exercises array because I had a minor typo. Typically that would be something really easy to pinpoint, but because the db wasn't throwing any errors, I had to console debug. 
 
 <p float="left">
 <img src="./public/images/homepage.png" alt="Home Page Image" width="45%" style="margin: 10px;"/>
@@ -32,7 +30,7 @@ Some of the problems that I encountered and overcame while building this applica
 - [Heroku](https://dashboard.heroku.com/apps)
 
 ## Usage
-* Navigate to the [deployed Heroku App]().
+* Navigate to the [deployed Heroku App](https://ng-workout-tracker.herokuapp.com).
 * Click the get started button.
 * Add a note title and body in the provided text box.
 * Save your note by clicking the save icon.
@@ -42,7 +40,7 @@ Some of the problems that I encountered and overcame while building this applica
 * Delete any note by pressing it's "trashcan" icon.
 
 ## Finished Product
-View deployed Heroku app [here]().
+View deployed Heroku app [here](https://ng-workout-tracker.herokuapp.com).
 
 ![](./public/images/workoutTracker.gif)
 
