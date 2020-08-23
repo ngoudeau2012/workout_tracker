@@ -31,13 +31,13 @@ Building this application thought the pros and cons of using a noNQL database. A
 
 ## Usage
 * Navigate to the [deployed Heroku App](https://ng-workout-tracker.herokuapp.com).
-* Click the get started button.
-* Add a note title and body in the provided text box.
-* Save your note by clicking the save icon.
-* View a list of your saved notes on the left hand side.
-* Click on any note in the list to view your full note.
-* Create a new note at any time by clicking the pencil button.
-* Delete any note by pressing it's "trashcan" icon.
+* On the home page the user is presented with their last workout. If they choose to continue this workout they may click "Continue Workout" to add another exercise.
+* If the user wants to begin a new workout press the "New Workout" button.
+* Choose an exercise type: Cardio or Resistance.
+* Enter relevant information about the exercise into input fields (name, miles, distance, weight, reps, etc.)
+* Choose to complete the workout or add another exercise. 
+* Once workout is complete the user selects "Complete". Then they are taken back to the home screen where they can view their last workout information.
+* User may navigate to the dashboard page to view charts representing their workout progress. Categories include duration of workout by day, duration by exercise type, weight lifted by exercise, and weight lifted by day.
 
 ## Finished Product
 View deployed Heroku app [here](https://ng-workout-tracker.herokuapp.com).
